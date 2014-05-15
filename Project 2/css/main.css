@@ -2,18 +2,28 @@
 	Created by Ashley Schaefer
 */
 
-
+@font-face {
+    font-family: 'ellianarelles_pathregular';
+    src: url('../fonts/ellianarelle_s_path-webfont.eot');
+    src: url('../fonts/ellianarelle_s_path-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ellianarelle_s_path-webfont.woff') format('woff'),
+         url('../fonts/ellianarelle_s_path-webfont.ttf') format('truetype'),
+         url('../fonts/ellianarelle_s_path-webfont.svg#ellianarelles_pathregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+		}
 		
 /*body*/
 	body{
-	background-color: red;
+	background-color: #000;
 		}
 		
 		
 /*wrapper*/
 	#wrapper{
-		background-color: #000;
+		background-color: hsla(0, 0%, 100%, 0.14);
 		color: #fff;
+		font-family: sans-serif;
 		width: 900px;
 		margin: auto;
 		padding: 15px 20px 15px 20px;
@@ -21,12 +31,73 @@
 		border-radius:20px;
 			-moz-border-radius:20px;
 			-webkit-border-radius:20px;
+		box-shadow:0 0 20px #47f0ff;	
+			-webkit-box-shadow:0 0 20px #47f0ff; 
+			-moz-box-shadow: 0 0 20px #47f0ff; 
+		
 		}
-
-
-
 	
 	h1{
 		text-align: center;
-		font-size: 300%;
+		font-size: 350%;
+		font-family: 'ellianarelles_pathregular';
 		}
+	h2{
+		font-size: 110%;
+		background: #000;
+		padding-left: 10px;
+		padding-top: 10px;
+		height: 25px;
+		margin-top: 50px;
+		}
+	h3{
+		font-size: 100%;
+		background: #000;
+		padding-left: 10px;
+		padding-top: 10px;
+		height: 25px;
+		margin-top: 50px;
+		}
+	p{
+		line-height: 130%;
+		}
+
+	blockquote{
+		font-style: italic;
+		}
+	
+	ol li{
+		list-style-type: upper-roman;
+		}
+		
+/*Navigation*/
+	#navigation{
+		text-align: center;
+		font-size: 22px;
+		font-weight: bold;
+		color: #47f0ff;
+		}
+
+	#navigation li{
+		display: inline-block;
+		vertical-align: top;
+		width: 160px;
+		
+		}
+		
+		a:link{text-decoration: none;
+			color: #47fcff;}
+		a:visited{color: #fff;}
+		a:hover{text-shadow: 0 0 10px #fff;}
+		a:active{color: #ff24de;}
+		
+		
+/*Images*/
+	img{
+		border-radius:20px;
+			-moz-border-radius:20px;
+			-webkit-border-radius:20px;
+		}
+	
+	
+		a:hover img{box-shadow: 0 0 10px #fff;}
