@@ -2,17 +2,8 @@
 	Created by Ashley Schaefer
 */
 
-@font-face {
-	font-family: 'Pristina-Regular';
-		src: url('fonts/Pristi/pristina.eot');
-		src: url('fonts/Pristi/pristina.eot?#iefix') format('embedded-opentype'),
-			 url('fonts/Pristi/pristina.woff') format('woff'),
-			 url('fonts/Pristi/pristina.ttf') format('truetype'),
-			 url('fonts/Pristi/pristina.svg#pristina') format('svg');
-	font-weight: normal;
-	font-style: normal;
-		}
 
+		
 /*body*/
 	body{
 	background-color: red;
@@ -33,7 +24,9 @@
 		}
 
 
+
+	
 	h1{
-		font-family: 'Pristina-Regular';
-		font-weight: normal;
-	}
+		color: green;
+		
+		}
