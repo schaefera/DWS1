@@ -138,4 +138,9 @@
 /*Footer*/
 	#footer {
 		clear: both;
+		padding-top: 75px;
+		background-image: url("../images/cameraSmall.png");
+		background-repeat: repeat-x;
+		background-position: 0, 0;
+		text-align: center;
 		}
