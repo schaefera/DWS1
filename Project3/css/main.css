@@ -16,12 +16,16 @@
 /*body*/
 	body{
 	background-color: #000;
+	background: linear-gradient(#000, #252525);
 		}
 		
 		
 /*wrapper*/
 	#wrapper{
 		background-color: hsla(0, 0%, 100%, 0.14);
+		background-image: url("../images/camera.png");
+		background-repeat: no-repeat;
+		background-position:0px 10px;
 		color: #fff;
 		font-family: sans-serif;
 		width: 900px;
