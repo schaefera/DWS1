@@ -40,7 +40,7 @@
 	h1{
 		text-align: center;
 		font-size: 350%;
-		font-family: 'ellianarelles_pathregular';
+		font-family: 'ellianarelles_pathregular', sans-serif;
 		}
 	h2{
 		font-size: 110%;
@@ -93,13 +93,12 @@
 		
 /*About Section*/
 	#about {
-	
 		float: left;
 		width:550px;
 		margin: 10px;
 		}
-	#myPic {
 		
+	#myPic {
 		float: left;
 		margin: 20px;
 		padding-top: 30px;
@@ -119,3 +118,20 @@
 	
 	
 		a:hover img{box-shadow: 0 0 10px #fff;}
+		
+	#column1Images{
+		width: 400px;
+		margin: 10px;
+		float: left;
+		}
+		
+	#column2Images{
+		width:400px;
+		margin: 10px;
+		float: left;
+		}
+
+/*Footer*/
+	#footer {
+		clear: both;
+		}
