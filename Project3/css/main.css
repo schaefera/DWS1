@@ -91,7 +91,25 @@
 		a:hover{text-shadow: 0 0 10px #fff;}
 		a:active{color: #ff24de;}
 		
+/*About Section*/
+	#about {
+	
+		float: left;
+		width:550px;
+		margin: 10px;
+		}
+	#myPic {
 		
+		float: left;
+		margin: 20px;
+		padding-top: 30px;
+		}
+		
+	
+	#equipment {
+		clear: both;
+		}	
+	
 /*Images*/
 	img{
 		border-radius:20px;
