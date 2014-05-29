@@ -112,7 +112,14 @@
 	#equipment {
 		clear: both;
 		}	
-	
+		
+/*Table*/
+	table{
+		border:2px solid white;
+		}
+	table td{
+		border: 2px solid white;
+		}
 /*Images*/
 	img{
 		border-radius:20px;
