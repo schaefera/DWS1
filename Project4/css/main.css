@@ -116,9 +116,25 @@
 /*Table*/
 	table{
 		border:2px solid white;
+		width: 550px;
+		border-spacing: 5px;
+		}
+	table tr:hover{
+		background-color: #07B2B5;
+		}
+	table th{
+		border-bottom: 2px solid white;
+		text-align: left;
+		padding-left: 10px;
+		font-size: 20px;
+		letter-spacing: 2px;
 		}
 	table td{
-		border: 2px solid white;
+		padding-top: 10px;
+		padding-left: 15px;
+		}
+	.colorRow{
+		background-color: black;
 		}
 /*Images*/
 	img{
